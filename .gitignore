@@ -1,0 +1,7 @@
+teacher_report/*
+director_report/*
+progress/*
+*.docx
+*.doc
+*.csv
+*.tar.gz
