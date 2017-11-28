@@ -12,8 +12,8 @@ try:
 except OSError:
 	pass
 
-csv_file = open('antetaforOO.csv','r')
-data = csv.DictReader(csv_file, delimiter=';')
+csv_file = open('new-data-total.csv','r')
+data = csv.DictReader(csv_file, delimiter=',')
 env = j2.Environment(loader=j2.FileSystemLoader('./'))
 
 director_tmplt = env.get_template('report_director.html')
