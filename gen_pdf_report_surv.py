@@ -3,7 +3,6 @@ import os
 import weasyprint as wp
 import csv
 import jinja2 as j2
-import progress.bar as pb
 
 try:
     os.mkdir('director_report')
